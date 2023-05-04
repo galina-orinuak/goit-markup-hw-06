@@ -512,7 +512,8 @@ button {
   color: #ffffff;
 }
 
-.footer-form-icon{background-color: #FFFFFF;}
+.footer-form-icon{fill: #FFFFFF;
+  background-color: #4D5AE5;}
 
 .footer-form-btn {
   display: flex;
