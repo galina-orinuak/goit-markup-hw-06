@@ -512,6 +512,8 @@ button {
   color: #ffffff;
 }
 
+.footer-form-icon{fill: white;}
+
 .footer-form-btn {
   display: flex;
   align-items: center;
