@@ -503,6 +503,10 @@ button {
   border-radius: 4px;
   background-color: #2e2f42;
   padding: 8px 16px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+color: #FFFFFF;
 }
 
 .footer-form-mail::placeholder {
@@ -510,7 +514,10 @@ button {
   font-size: 12px;
   line-height: 24px;
   color: #ffffff;
+
 }
+
+.footer-form-mail:focus {outline: none;}
 
 .footer-form-btn {
   display: flex;
@@ -734,6 +741,17 @@ button {
 
 /*================ MODAL FORM ================*/
 
+.modal-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top: 24px;
+margin-bottom: 16px;
+margin-left: 16px;
+margin-right: 16px;
+color: #2E2F42;
+}
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -811,6 +829,8 @@ button {
   font-size: 12px;
   margin-bottom: 24px;
 }
+
+.modal-form-check-desc:focus{outline: none;}
 
 .modal-form-check-desc::before {
   content: '';
